@@ -1,0 +1,5 @@
+# Cython related files
+build/
+**/*.so
+**/*.c
+**/*.html
