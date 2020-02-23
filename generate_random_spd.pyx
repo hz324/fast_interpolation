@@ -30,7 +30,7 @@ def single_spd_gen(int dimension, float max_eigenvalue):
 
     vector_seed = vector_seed/np.linalg.norm(vector_seed)
     eigenvectors = np.eye(dimension, dtype=DTYPE) - 2*vector_seed*vector_seed.T
-    print(eigenvectors)
+    # print(eigenvectors)
     spd = np.dot(np.dot(eigenvectors, np.diag(eigenvalues)),eigenvectors.T)
 
     return spd
