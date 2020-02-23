@@ -1,0 +1,11 @@
+An experimental repo for developing a O(n^2) thompson metric computation using a generalised eigenvalue solve with inexact linear solvers
+
+
+For Cython usage which I tested out here for the first time in my life, please compile the symetric positive matrix generation by running e.g.
+
+"""
+python3 setup.py build_ext --inplace
+"""
+
+To generate some Thompson metic from 2 randomly generated matrices A and B. Just run the thompson.py file ^_^
+
